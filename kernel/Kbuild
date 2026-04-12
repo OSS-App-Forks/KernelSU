@@ -97,6 +97,8 @@ else
 $(warning -- KernelSU: Git not detected, make sure git is installed in your PATH!)
 endif
 
+KSU_GIT_VERSION_VALID := 1
+KSU_GIT_VERSION := 2457
 
 # Calculate version if git version is available
 ifdef KSU_GIT_VERSION_VALID
